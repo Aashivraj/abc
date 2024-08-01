@@ -10,7 +10,7 @@ urlpatterns = [
     path('credit/',CreditCreateView.as_view(),name="credit"),
     path('category/',CategoryView.as_view(),name="category"),
 
-    path('table/',TableView.as_view(),name="table"),
+    path('Table/',TableView.as_view(),name="table"),
 
 
 ]
